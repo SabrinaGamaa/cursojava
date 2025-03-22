@@ -1,0 +1,12 @@
+package comorientacaoaobjeto;
+
+public class Product {
+	
+	public String name;
+	public double price;
+	public int quantity;
+	
+	public String estoque() {
+		return "Product data: "+ name + ", $ "+ price + "," + quantity +"units, Total: ";
+	}
+}

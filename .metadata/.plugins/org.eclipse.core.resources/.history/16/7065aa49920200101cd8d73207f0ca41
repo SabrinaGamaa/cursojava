@@ -1,0 +1,28 @@
+package cursojava;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class semorientacaoobjeto {
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the measures of triangles X");
+		double A = sc.nextDouble();
+		double B = sc.nextDouble();
+		double C = sc.nextDouble();
+		System.out.println("Enter the measures of triangles Y");
+		double D = sc.nextDouble();
+		double E = sc.nextDouble();
+		double F = sc.nextDouble();
+		
+		double X = (A+B+C) / 2;
+		double Y = (D+E+F) / 2;
+		System.out.println("Triangles X area: " + X);
+		System.out.println("Triangles Y area: " + Y);
+		
+		sc.close();
+	}
+}

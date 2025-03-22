@@ -1,0 +1,8 @@
+package comorientacaoaobjeto;
+
+public class Product {
+	String nome;
+	double price;
+	int quantity;
+	
+}

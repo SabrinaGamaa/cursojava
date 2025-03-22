@@ -1,0 +1,12 @@
+
+public class exercicios02 {
+	
+	public static void main(String[] agrs) {
+		int entrada = -10;
+		
+		if (entrada < 0) {
+			System.out.println("NEGATIVO");
+		}
+	}
+	
+}

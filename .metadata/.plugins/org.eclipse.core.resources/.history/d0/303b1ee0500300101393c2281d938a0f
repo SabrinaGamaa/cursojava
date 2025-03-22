@@ -1,0 +1,24 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+import comorientacaoaobjeto.LarguraTriangulo;
+import comorientacaoaobjeto.Product;
+
+
+public class ex001 {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		LarguraTriangulo calculo = new LarguraTriangulo();
+				
+		System.out.print("Enter rectangle width and height: ");
+		calculo.height = 3;
+		calculo.width = 4;
+		
+		System.out.printf("AREA: %.2f\n", calculo.Area());
+		System.out.printf("PERIMETER: %.2f\n", calculo.Perimeter());
+		System.out.printf("DIAGONAL: %.2f\n", calculo.Diagonal());
+		
+	}
+}

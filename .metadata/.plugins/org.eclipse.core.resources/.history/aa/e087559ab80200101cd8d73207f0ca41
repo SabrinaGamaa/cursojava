@@ -1,0 +1,31 @@
+import java.util.Locale;
+import java.util.Scanner;
+import comorientacaoaobjeto.Product;
+
+
+public class estoque {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		Product produtos = new Product();
+		
+		System.out.println("------ ESTOQUE ------");
+		System.out.println("Enter product data:");
+		System.out.print("Nome: ");
+		produtos.name = sc.next();
+		System.out.print("Price: ");
+		produtos.price = sc.nextDouble();
+		System.out.print("Quantity in Stock: ");
+		produtos.quantity = sc.nextInt();
+
+		System.out.printf("Product data: %s, $ %.2f, %d units, Total: $ %.2f\n", produtos.name, produtos.price, produtos.quantity, produtos.total());
+		
+			
+		
+		sc.close();
+		
+	}
+}

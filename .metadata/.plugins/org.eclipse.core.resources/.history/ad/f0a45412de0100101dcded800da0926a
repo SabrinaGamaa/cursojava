@@ -1,0 +1,21 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class whilee {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite números inteiros para descobrir a sua soma total: ");
+		
+		int num = sc.nextInt();
+		
+		while (num != 0) {
+			num = sc.nextInt();
+			
+			}
+		
+		sc.close();
+		
+	}
+}

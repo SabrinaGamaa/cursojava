@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class funcoesmath {
+	
+	public static void main(String[] args) {
+		
+		double x = 81;
+		x = Math.sqrt(x);
+		
+		System.out.println(x);
+	}
+}

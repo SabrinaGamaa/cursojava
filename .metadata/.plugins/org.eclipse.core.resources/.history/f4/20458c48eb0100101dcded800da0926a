@@ -1,0 +1,19 @@
+
+public class funcoespstring {
+
+	public static void main(String[] args) {
+		
+		String original = "adeDFEW WEFdewf SAbriNA rfref     ";
+		System.out.println("Texto original: " + original + '-');
+		
+		String lower = original.toLowerCase();
+		System.out.println("Texto com tudo minusculo: " + lower + '-');
+
+		String upper = original.toUpperCase();
+		System.out.println("Texto maiusculo: " + upper + '-');
+		
+		String replace = original.replaceAll("SAbriNA", "SABRINA");
+		System.out.println("Texto formatado: " + replace + '-');
+		
+	}
+}

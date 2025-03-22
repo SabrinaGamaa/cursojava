@@ -1,0 +1,16 @@
+package comorientacaoaobjeto;
+
+public class Product {
+	
+	public String name;
+	public double price;
+	public int quantity;
+	
+	public double total() {
+		return quantity * price;
+	}
+	
+	public int addedStock(int added) {
+		return quantity += added;
+	}
+}

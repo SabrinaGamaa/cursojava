@@ -1,0 +1,23 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+import comorientacaoaobjeto.DadosFuncionarios;
+import comorientacaoaobjeto.NotaAluno;
+
+public class ex003 {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		NotaAluno aluno = new NotaAluno();
+		aluno.nota1 = 27;
+		aluno.nota2 = 31;
+		aluno.nota3 = 32;
+		
+		System.out.println("FINAL GRADE = " + aluno.mediaAluno());
+		
+		sc.close();
+		
+	}
+}

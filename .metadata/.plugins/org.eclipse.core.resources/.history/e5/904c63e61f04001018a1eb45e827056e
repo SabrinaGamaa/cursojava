@@ -1,0 +1,40 @@
+package comorientacaoaobjeto;
+
+public class Product {
+	
+	public String name;
+	public double price;
+	public int quantity;
+	
+//	Normalmente o construtor é colocado entre os atributos e os metodos
+	public Product(String name, double price, int quantity) {
+//		Uma referencia para o proprio objeto
+		this.name = name;   // Percebe pelas cores que cada um representa atributo do objeto, atributo do metodo
+		this.price = price;
+		this.quantity = quantity;
+	}
+	
+	public double total() {
+		return quantity * price;
+	}
+	
+	public void addedStock(int quantity) {
+		this.quantity += quantity;
+	}
+	
+	public void removeStock(int quantity) {
+		this.quantity -= quantity;
+	}
+	
+	public String toString() {
+		return name
+			+ ", $ "
+			+ String.format("%.2f", price) 
+			+ ", " 
+			+ quantity 
+			+ " units, Total: $"
+			+ String.format("%.2f", total());
+	}
+}
+
+

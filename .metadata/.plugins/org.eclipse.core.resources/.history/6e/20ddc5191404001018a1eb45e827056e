@@ -1,0 +1,11 @@
+package comorientacaoaobjeto;
+
+public class CalculatorExercicio {
+	public static final double DOLLAR = 5.69;
+	
+//	Pq ela pode ser calculada independendo do objeto
+	public static double CurrencyConverter(double dollar, double quantity) {
+		return quantity * DOLLAR * 1.06;
+	}
+	
+}
