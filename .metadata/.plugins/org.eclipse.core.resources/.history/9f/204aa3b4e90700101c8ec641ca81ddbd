@@ -1,0 +1,36 @@
+package exercicios;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import entities.MediaAltura;
+
+public class ex003 {
+	
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Quantas pessoas serão digitadas? ");
+		int num = sc.nextInt();
+		MediaAltura[] lista = new MediaAltura[num];
+		
+		for (int i=0; i<lista.length; i++) {
+			System.out.printf("Dados da %d° pessoa \n", i+1);
+			System.out.print("Nome: ");
+			String nome = sc.nextLine();
+			sc.next();
+			System.out.print("Idade: ");
+			int idade = sc.nextInt();
+			System.out.print("\nAltura: ");
+			double altura = sc.nextDouble();
+			
+			lista[i] = new MediaAltura(nome, idade, altura);
+		
+		}
+		
+		sc.close();
+		
+	}
+}
