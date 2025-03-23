@@ -11,7 +11,7 @@
     <fullyQualifiedTypeName name="comorientacaoaobjeto.CalculatorExercicio"/>
     <fullyQualifiedTypeName name="comorientacaoaobjeto.Product"/>
     <fullyQualifiedTypeName name="java.rmi.registry.LocateRegistry"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="entities.Account"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
 </qualifiedTypeNameHistroy>
