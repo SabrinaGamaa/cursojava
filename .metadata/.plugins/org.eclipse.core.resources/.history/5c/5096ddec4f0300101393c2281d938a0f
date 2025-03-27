@@ -1,6 +1,0 @@
-package comorientacaoaobjeto;
-
-public class LarguraTriangulo {
-	public double width;
-	public double height;
-}
