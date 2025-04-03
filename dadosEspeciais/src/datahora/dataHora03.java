@@ -7,7 +7,6 @@ import java.time.ZoneId;
 
 public class dataHora03 {
 	public static void main(String[] args) {
-		LocalDate d01 = LocalDate.parse("2025-03-28");
 		LocalDateTime d02 = LocalDateTime.parse("2025-03-28T15:52:26");
 		Instant d03 = Instant.parse("2025-03-28T01:30:26Z");
 		
