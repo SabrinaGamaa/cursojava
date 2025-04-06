@@ -46,15 +46,13 @@ public class Account {
 	}
 	
 	public void withdraw(Double amount) {
-		balance -= amount;
+		balance -= amount + 5.0;
 	}
 	
 	public void deposit(Double amount) {
 		balance += amount;
 	}
 
-
-	@Override
 	public String toString() {
 		return "Account: " + number + "\nHolder: " + holder + "\nBalance: $" + String.format("%.2f", balance);
 	}
