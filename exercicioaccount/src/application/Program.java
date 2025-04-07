@@ -24,6 +24,20 @@ public class Program {
 		System.out.println("Conta Poupança: " + client2.getBalance());
 		System.out.println("Conta Business: " + client3.getBalance());
 		
+		System.out.println(" ------ Polimorfismo ------- ");
+		
+		Account x = new Account(2001, "Alex", 1000.0);
+		Account y = new SavingAccount(2002, "Maria", 1000.0, 0.01);
+		
+		x.withdraw(50.0);
+		y.withdraw(50.0);
+		
+		System.out.println(x);
+		System.out.println();
+		System.out.println(y);
+		
+		
+		
 	}
 	
 	
