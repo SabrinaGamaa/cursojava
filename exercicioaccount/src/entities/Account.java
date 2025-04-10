@@ -1,6 +1,9 @@
 package entities;
 
-public class Account {
+//Como posso garantir que minha classe não pode ser iniciada - 
+//	Basta torna um exemplo a conta Account ABSTRACT
+
+public abstract class Account {
 	protected Integer number;
 	protected String holder;
 	protected Double balance;
