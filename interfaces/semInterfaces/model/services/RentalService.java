@@ -10,6 +10,7 @@ public class RentalService {
 	private Double pricePerHour;
 	private Double pricePerDay;
 	
+//	Não é uma boa pratica
 	private BrazilTaxService taxService;
 	
 	public RentalService(){
