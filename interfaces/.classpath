@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="semInterfaces"/>
 	<classpathentry kind="src" path="comInterfaces"/>
 	<classpathentry kind="src" path="exercicios"/>
+	<classpathentry kind="src" path="exercicios2"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
