@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" filepath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.egit.core/.org.eclipse.egit.core.cmp/.org.eclipse.egit.core.cmp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arquivos/arquivos.iml" filepath="$PROJECT_DIR$/arquivos/arquivos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arraysandlist/arraysandlist.iml" filepath="$PROJECT_DIR$/arraysandlist/arraysandlist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cursojava/cursojava.iml" filepath="$PROJECT_DIR$/cursojava/cursojava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dadosEspeciais/dadosEspeciais.iml" filepath="$PROJECT_DIR$/dadosEspeciais/dadosEspeciais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/encapsulamento/encapsulamento.iml" filepath="$PROJECT_DIR$/encapsulamento/encapsulamento.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enumeracoes/enumeracoes.iml" filepath="$PROJECT_DIR$/enumeracoes/enumeracoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/especiais/especiais.iml" filepath="$PROJECT_DIR$/especiais/especiais.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excecoes/excecoes.iml" filepath="$PROJECT_DIR$/excecoes/excecoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/excecoespersonalizadas/excecoespersonalizadas.iml" filepath="$PROJECT_DIR$/excecoespersonalizadas/excecoespersonalizadas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercicioaccount/exercicioaccount.iml" filepath="$PROJECT_DIR$/exercicioaccount/exercicioaccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exerciciopost/exerciciopost.iml" filepath="$PROJECT_DIR$/exerciciopost/exerciciopost.iml" />
+      <module fileurl="file://$PROJECT_DIR$/genericss/genericss.iml" filepath="$PROJECT_DIR$/genericss/genericss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/interfaces/interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metodosabstratos/metodosabstratos.iml" filepath="$PROJECT_DIR$/metodosabstratos/metodosabstratos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poo/poo.iml" filepath="$PROJECT_DIR$/poo/poo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trabalhador/trabalhador.iml" filepath="$PROJECT_DIR$/trabalhador/trabalhador.iml" />
+    </modules>
+  </component>
+</project>

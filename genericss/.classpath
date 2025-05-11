@@ -8,5 +8,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="setss"/>
 	<classpathentry kind="src" path="hashcodeandequals"/>
+	<classpathentry kind="src" path="exercicios"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
