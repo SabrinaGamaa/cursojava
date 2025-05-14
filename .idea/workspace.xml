@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d3e6080a-fdf5-4b6c-a131-b108b443c10c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expressoesLambda/src/Consumerr.java" beforeDir="false" afterPath="$PROJECT_DIR$/expressoesLambda/src/Consumerr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/expressoesLambda/entitiesComparador.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/expressoesLambda/src/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/expressoesLambda/src/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/expressoesLambda/entities/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressoesLambda/entities/Product.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +41,7 @@
     "Application.Comparador.executor": "Run",
     "Application.Consumerr.executor": "Run",
     "Application.ExercicioMap.executor": "Run",
+    "Application.Functionn.executor": "Run",
     "Application.Program.executor": "Run",
     "Application.ProgramExercicio.executor": "Run",
     "Application.ProgramMap.executor": "Run",
@@ -61,9 +63,16 @@
       <recent name="C:\temp\ws-eclipse\expressoesLambda\src\util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Consumerr">
+  <component name="RunManager" selected="Application.Functionn">
     <configuration name="Consumerr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Consumerr" />
+      <module name="expressoesLambda" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Functionn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Functionn" />
       <module name="expressoesLambda" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,6 +93,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Functionn" />
         <item itemvalue="Application.Consumerr" />
         <item itemvalue="Application.ProgramExercicio" />
       </list>
