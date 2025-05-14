@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3e6080a-fdf5-4b6c-a131-b108b443c10c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expressoesLambda/entitiesComparador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/expressoesLambda/src/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/expressoesLambda/src/entities/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/expressoesLambda/entities/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/expressoesLambda/entities/Product.class" afterDir="false" />
-    </list>
+    <list default="true" id="d3e6080a-fdf5-4b6c-a131-b108b443c10c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
