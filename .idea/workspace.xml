@@ -37,9 +37,12 @@
   "keyToString": {
     "Application.Comparador.executor": "Run",
     "Application.Consumerr.executor": "Run",
+    "Application.Exercicio.executor": "Run",
+    "Application.Exercicio2.executor": "Run",
     "Application.ExercicioMap.executor": "Run",
     "Application.FuncoesParametros.executor": "Run",
     "Application.Functionn.executor": "Run",
+    "Application.Pipelinee.executor": "Run",
     "Application.Program.executor": "Run",
     "Application.ProgramExercicio.executor": "Run",
     "Application.ProgramMap.executor": "Run",
@@ -65,10 +68,23 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Streamm">
-    <configuration name="Consumerr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Consumerr" />
+  <component name="RunManager" selected="Application.Exercicio2">
+    <configuration name="Exercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio" />
       <module name="expressoesLambda" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercicio2" />
+      <module name="expressoesLambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,22 +96,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functionn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Functionn" />
+    <configuration name="Pipelinee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pipelinee" />
       <module name="expressoesLambda" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProgramExercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="application.ProgramExercicio" />
-      <module name="genericss" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="application.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercicio2" />
+        <item itemvalue="Application.Exercicio" />
+        <item itemvalue="Application.Pipelinee" />
         <item itemvalue="Application.Streamm" />
         <item itemvalue="Application.FuncoesParametros" />
-        <item itemvalue="Application.Functionn" />
-        <item itemvalue="Application.Consumerr" />
-        <item itemvalue="Application.ProgramExercicio" />
       </list>
     </recent_temporary>
   </component>
