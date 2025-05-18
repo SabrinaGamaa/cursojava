@@ -1,18 +1,27 @@
 package dominio;
 
+import javax.persistence.*;
+import java.io.Serial;
 import java.io.Serializable;
 
+//É uma entidade de dominio que corresponde a uma tabela
+@Entity
 public class Pessoa implements Serializable {
+    @Serial
     private static final long serialVersionUID = 1L;
 
-    private int id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+//  Indica pro JPA que na hora de criar o banco de dados, é para criar com o nomecompleto
+//    @Column(name = "nomecompleto")
     private String nome;
     private String email;
 
     public Pessoa(){
     }
 
-    public Pessoa(int id, String nome, String email) {
+    public Pessoa(Integer id, String nome, String email) {
         this.id = id;
         this.nome = nome;
         this.email = email;
@@ -22,7 +31,7 @@ public class Pessoa implements Serializable {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
