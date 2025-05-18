@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/genericss/genericss.iml" filepath="$PROJECT_DIR$/genericss/genericss.iml" />
       <module fileurl="file://$PROJECT_DIR$/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/interfaces/interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/metodosabstratos/metodosabstratos.iml" filepath="$PROJECT_DIR$/metodosabstratos/metodosabstratos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nivelamentoJPA/nivelamentoJPA.iml" filepath="$PROJECT_DIR$/nivelamentoJPA/nivelamentoJPA.iml" />
       <module fileurl="file://$PROJECT_DIR$/poo/poo.iml" filepath="$PROJECT_DIR$/poo/poo.iml" />
       <module fileurl="file://$PROJECT_DIR$/trabalhador/trabalhador.iml" filepath="$PROJECT_DIR$/trabalhador/trabalhador.iml" />
     </modules>
