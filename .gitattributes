@@ -3,3 +3,5 @@
 
 # Forçar a detecção de Java como linguagem principal
 *.java linguist-detectable=true
+
+*.js linguist-detectable=false
